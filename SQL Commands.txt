@@ -1,6 +1,12 @@
 //SQL Commands
 
-describe table_name			- To see structure of table_name
-select (1+4) as sum			- Give output 5 as sum
-select length("Mohit")		- Give length of a string 5
-select repeat("@",5)		- Give @@@@@ as a output 5 times
+describe table_name				- To see structure of table_name
+select (1+4) as sum				- Give output 5 as sum
+select length("Mohit")			- Give length of a string 5
+select repeat("@",5)			- Give @@@@@ as a output 5 times
+select lower("MOHIT")			- Give mohit
+select upper("mohit")			- Give Mohit
+select count(Name) as no_of_emp from emp_table;
+select curdate();				- Give today date
+select day(curdate());			- Give todaye date only 23
+select now();					- Give current date and time 
