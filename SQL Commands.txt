@@ -1,0 +1,6 @@
+//SQL Commands
+
+describe table_name			- To see structure of table_name
+select (1+4) as sum			- Give output 5 as sum
+select length("Mohit")		- Give length of a string 5
+select repeat("@",5)		- Give @@@@@ as a output 5 times

@@ -1,0 +1,40 @@
+GIT COMMANDS
+
+//To set username and email of our machine
+git config --global user.name "Mohit"
+git config --global user.email "mohit.singh@vectoscalar.com"
+
+//To push folder on Github you can use guided commands on github website or check below
+
+====git process
+git init                    (initialize git in that folder )
+git status                  (to check new files or changes)
+git add .                   (for all changes to add in git)
+git commit -m "a" -m "b"    (to commit in github)
+git remote                  (copy the link from gitub)
+git pull origin master      
+git push origin master      (finally push to repo)
+git reset 					(to untrack all the added files)
+git ignore (.gitignore)     (make a folder .gitignore and insert file names that you dont wanna push ) to select specific extension(*.html)
+
+//to copy github to machine 
+git clone (paste the ssh or https link of repo)
+git add .
+git commit -m ""
+git remote 
+git pull origin master
+git push origin master
+
+// Branching 
+git branch           (will show all branches)
+git branch br        (to make a new branch of name br)
+git pull origin br   (to pull in branch )
+git push origin br   (to push in branch)
+git checkout main    (to change the branch)
+
+//to merge branch with master
+git checkout master      (to change to main branch)
+git pull origin master   (to pull update master )
+git branch --merged      (to merge)
+git merge br             (to merge br)
+git push origin master   (to push on github)
