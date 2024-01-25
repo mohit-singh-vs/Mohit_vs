@@ -20,8 +20,8 @@
 <h1 align="center">Connect with me:</h1>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/infonty/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Mohit" height="30" width="40" /></a>
-<a href="https://leetcode.com/Infonty/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="Infonty" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/infonty/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="mohitt91" height="30" width="40" /></a>
+<a href="https://leetcode.com/Infonty/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="mohitt91" height="30" width="40" /></a>
 </p>
 <br>
 
@@ -32,8 +32,8 @@
   
 <h1 align="center">GitHub</h1>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=amanyadav257&show_icons=true&locale=en" alt="" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mohitt91&show_icons=true&locale=en" alt="" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=amanyadav257&" alt="" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mohitt91&" alt="mohitt91" /></p>
 <br>
 
