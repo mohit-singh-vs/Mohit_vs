@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Web Development**
 
-- 👨‍💻 My portfolio: <a href="https://amanyadav257.github.io/My-Portfolio">click here</a>
+- 👨‍💻 My portfolio: <a href="https://infonty.github.io/Portfolio/">click here</a>
 
 - 📫 How to reach me **mohit.singh@vectoscalar.com**
 
@@ -20,9 +20,8 @@
 <h1 align="center">Connect with me:</h1>
 
 <p align="center">
-<a href="https://linkedin.com/in/aman-yadav-5371671b2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aman-yadav-5371671b2" height="30" width="40" /></a>
-<a href="https://instagram.com/aman___yadhuvanshi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="aman___yadhuvanshi" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/codechange" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="codechange" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/infonty/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Mohit" height="30" width="40" /></a>
+<a href="https://leetcode.com/Infonty/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="Infonty" height="30" width="40" /></a>
 </p>
 <br>
 
