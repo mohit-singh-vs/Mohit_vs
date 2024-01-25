@@ -32,7 +32,7 @@
   
 <h1 align="center">GitHub</h1>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mohitt91&show_icons=true&locale=en" alt="" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mohitt91" &show_icons=true&locale=en" alt="" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mohitt91&" alt="mohitt91" /></p>
 <br>
