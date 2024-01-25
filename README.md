@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Web Development**
 
-- 👨‍💻 My portfolio: <a href="https://infonty.github.io/Portfolio/">click here</a>
+- 👨‍💻 My portfolio: <a target="_blank" href="https://infonty.github.io/Portfolio/">click here</a>
 
 - 📫 How to reach me **mohit.singh@vectoscalar.com**
 
