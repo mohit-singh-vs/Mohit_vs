@@ -86,6 +86,24 @@ select * from view_name;
 rename table old_name to new_name;
 
 //to see all views
-show tables
+show full tables
 where table_type='VIEW'
 
+//to drop view or triggers
+drop view view_name
+
+//Partition window fnc 
+select id,name,sex, sum(salary) over (partition by sex) as total_salary
+from emp_table;
+
+// use to row_number () is to find duplicate in table
+
+
+// Rank window function
+select salary, rank () over (order by salary) from emp_table;
+
+// first_value window fnc
+ we are finding highest salary from each gender 
+ select id,name,sex,salary, first_value(name) 
+over (partition by sex order by salary desc ) as highest_salary 
+from emp_table;
