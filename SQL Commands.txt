@@ -16,3 +16,76 @@ select replace("apple is a vegetable","vegetable","Fruit");
 select ltrim("         Mohit         ");
 select rtrim("       Mohit          ");
 select trim("              Mohit           ");
+//Self Join
+ select concat(e.FirstName," ",e.LastName)as employee,
+    concat(m.FirstName," ",m.LastName)as manager
+    from EmployeeHierarchy as e 
+    inner join EmployeeHierarchy as m
+    on e.EmployeeID=m.ManagerID;
+	
+//Insert Subquery
+insert into orders
+select prod_id,item,sellingPrice
+from products where prod_id in (select prod_id from products where sellingPrice>1000);
+
+//update Subquery
+update Employees 
+set salary=salary*100
+where age in (select age from Employees_b where age >30);
+
+//triggers
+delimiter //
+create trigger customers_before_insert
+before insert
+on customers
+for each row
+begin
+if new.age<0 then set new.age=0;
+end if;
+end;
+//
+delimiter ;
+
+//Stored procedure
+
+delimiter //
+create procedure top_players()
+begin 
+select name,team,goals from players
+where goals>6
+end //
+delimiter ;
+call top_players();
+
+//Stored procedure using parameter
+
+delimiter &&
+create procedure top_employee(IN variable int)
+begin 
+select name,age,salary from Employee
+order by salary desc limit var;
+end &&
+delimiter ;
+call top_employee(3) IT will print 3 highest salary employee
+
+//using out
+create procedure count(OUT Totalcount int)
+begin
+select count(name) into Totalcount from Employee
+where gender="M";
+end ;
+call count(@M_emp)
+select @M_emp as Male
+
+//create view view_name
+as 
+select id,age from table
+select * from view_name;
+
+//To rename views
+rename table old_name to new_name;
+
+//to see all views
+show tables
+where table_type='VIEW'
+
