@@ -10,3 +10,9 @@ select count(Name) as no_of_emp from emp_table;
 select curdate();				- Give today date
 select day(curdate());			- Give todaye date only 23
 select now();					- Give current date and time 
+select concat("MOhit"," ","Singh");
+select reverse("Mohit");
+select replace("apple is a vegetable","vegetable","Fruit");
+select ltrim("         Mohit         ");
+select rtrim("       Mohit          ");
+select trim("              Mohit           ");
