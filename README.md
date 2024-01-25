@@ -5,13 +5,13 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=amanyadav257&label=Profile%20views&color=0e75b6&style=flat" alt="amanyadav257" /> </p>
 
-- 🌱 I’m currently learning **Networking(How to create a torrent client)**
+- 🌱 I’m currently learning **Web Development**
 
 - 👨‍💻 My portfolio: <a href="https://amanyadav257.github.io/My-Portfolio">click here</a>
 
-- 📫 How to reach me **amanyadav01g@gmail.com**
+- 📫 How to reach me **mohit.singh@vectoscalar.com**
 
-- 📄 My resume: <a href="https://drive.google.com/file/d/1CbEsHZTUx_FjEiidG3OxVq6DBRbDBt67/view?usp=sharing">click here</a>
+- 📄 My resume: <a href="https://drive.google.com/file/d/1PC3gdSzDNRCjy7ynphiXRk780RRZ3Heg/view?usp=drivesdk">click here</a>
 <br>
 <br>
 <br>
