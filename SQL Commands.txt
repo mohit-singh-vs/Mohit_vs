@@ -107,3 +107,38 @@ select salary, rank () over (order by salary) from emp_table;
  select id,name,sex,salary, first_value(name) 
 over (partition by sex order by salary desc ) as highest_salary 
 from emp_table;
+
+-------------------------PLSQL---------------------------
+
+select department,country,salary
+case 
+when salary<50000
+then 'Low salary'
+when salary>50000 and salary <80000
+then 'Medium salary'
+end as salary_range
+from employess
+
+select right('India is a country',5)  //print 5 char from right
+select left('India is a country',5)  //print 5 char from left
+select repeat('India',5)		//it will print India 5 times
+
+-------------User Defined funciton in plsql
+
+create or replace function
+count_emails()
+return integer as $total_emails$
+declare 
+	total_emails integer;
+begin
+	select count(email) into total_emails
+	from employees
+	return total_emails;
+end ;
+$total_emails$ language plpgsql
+select count_emails; //fnc called
+
+
+
+
+	
