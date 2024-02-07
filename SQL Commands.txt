@@ -138,7 +138,10 @@ end ;
 $total_emails$ language plpgsql
 select count_emails; //fnc called
 
-
+--------------------to find duplicate rows in a table ------------------
+select emp_id,name,age, count(*) as dep_count from Employees
+group by emp_id,name,age
+having count(emp_id)>1 and count(name)>1 and count(age)>1
 
 
 	
