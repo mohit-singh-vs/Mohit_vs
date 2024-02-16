@@ -1,0 +1,26 @@
+class Queue<T> {
+  private items: T[] = [];
+
+  enqueue(item: T): void {
+    this.items.push(item);
+  }
+
+  dequeue(): T | undefined {
+    return this.items.shift();
+  }
+
+  isEmpty(): boolean {
+    return this.items.length === 0;
+  }
+
+  size(): number {
+    return this.items.length;
+  }
+}
+
+// Example usage:
+const stringQueue = new Queue<string>();
+stringQueue.enqueue("first");
+stringQueue.enqueue("second");
+console.log(stringQueue.dequeue()); // Output: "first"
+console.log(stringQueue.size()); // Output: 1
