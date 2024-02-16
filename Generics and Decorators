@@ -18,9 +18,57 @@ class Queue<T> {
   }
 }
 
-// Example usage:
 const stringQueue = new Queue<string>();
 stringQueue.enqueue("first");
 stringQueue.enqueue("second");
-console.log(stringQueue.dequeue()); // Output: "first"
-console.log(stringQueue.size()); // Output: 1
+console.log(stringQueue.dequeue());
+console.log(stringQueue.size());
+
+------------------------------------------------------------------Question - 2-----------------------------------------------------------------------------------
+
+type CharAtType = { charAt(index: number): string };
+
+function performCharAtOperation<T extends CharAtType>(value: T, index: number): string {
+  return value.charAt(index);
+}
+
+const stringValue = "Mohit";
+const result = performCharAtOperation(stringValue, 2);
+console.log(result); 
+
+--------------------------------------------------------------------------Question - 3----------------------------------------------------------------------------------
+
+// Class Decorator
+function classDecorator(target: any) {
+  console.log(`Class decorated: ${target.name}`);
+}
+
+// Method Decorator
+function methodDecorator(target: any, key: string, descriptor: PropertyDescriptor) {
+  console.log(`Method decorated: ${key}`);
+}
+
+// Property Decorator
+function propertyDecorator(target: any, key: string) {
+  console.log(`Property decorated: ${key}`);
+}
+
+// Parameter Decorator
+function parameterDecorator(target: any, key: string, index: number) {
+  console.log(`Parameter decorated: ${key}, Index: ${index}`);
+}
+
+@classDecorator
+class DecoratorExample {
+  @propertyDecorator
+  private exampleProperty: string;
+
+  @methodDecorator
+  @parameterDecorator
+  printMessage(@parameterDecorator message: any): void {
+    console.log(message);
+  }
+}
+
+const example = new DecoratorExample();
+example.printMessage("Mohit")
